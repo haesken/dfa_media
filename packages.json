@@ -1,0 +1,36 @@
+{
+    "packages": {
+        "dwarffortress": {
+            "version": "0.34.11",
+            "depends": {
+                "none": "none"
+            },
+            "platforms": {
+                "linux": {
+                    "filename": "foobar",
+                    "sha1": "asfasdfasdf"
+                },
+                "osx": {
+                    "filename": "foobar",
+                    "sha1": "asfasdfasdf"
+                },
+                "windows": {
+                    "filename": "foobar",
+                    "sha1": "asfasdfasdf"
+                }
+            }
+        },
+        "phoebus": {
+            "version": "0.34.11-00",
+            "depends": {
+                "dwarffortress": "0.34.11"
+            },
+            "platforms": {
+                "all": {
+                    "filename": "foobar",
+                    "sha1": "asfasdfasdf"
+                }
+            }
+        }
+    }
+}
